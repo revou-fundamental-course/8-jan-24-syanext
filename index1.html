@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/index1.js"></script>
+    <title>Katik</title>
+</head>
+<body>
+    <Header>
+        <h1>Kalkulator Matematika</h1>
+    </Header>
+    <div>
+        <nav>
+            <ul>
+                <a id="persegi" href="./index.html">Persegi</a>
+                <a id="PersegiPanjang" href="./index1.html">Persegi Panjang</a>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <h4> Welcome to Kalkulator Luas dan Keliling Persegi Panjang</h4>
+        <p>Web ini digunakan untuk menghitung luas dan Keliling Persegi Panjang dalam rangka menyelesaikan mini projek RevoU</p></div>
+    <div class="Inputsection" >
+        <label for="squareSide1" id="lbsequareSide1">Panjang sisi</label>
+        <input type="number" id="squareSide1" placeholder="Panjang Sisi">
+        <br>
+        <label for="squareSide2" id="lbsequareSide2">Lebar sisi</label>
+        <input type="number" id="squareSide2" placeholder="lebarSisi">
+    </div>
+    <div class="button">
+        <button class="btn" id="btn-hitung" onclick="btnhitung()">Hitung</button>
+        <br>
+        <div class="outputluas">
+            <h4 id="prg-hasil">Hasil Perhitungan Luas Persegi Panjang</h4>
+            <p id="Rumus"></p>
+            <p id="nilai"></p>
+            <p id="hasil"></p>
+        </div>
+        <br/>
+        <div class="outputkel">
+            <h4 id="prg-hasilK">Hasil Perhitungan Keliling Persegi Panjang</h4>
+            <p id="RumusK"></p>
+            <p id="nilaiK"></p>
+            <p id="hasilK"></p>
+        </div>
+        <br/>
+        <button class="btn" id="btn-reset" onclick="btnreset()">Reset</button>
+    </div>
+</body>
+</html>
