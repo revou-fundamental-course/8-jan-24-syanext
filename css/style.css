@@ -1,0 +1,181 @@
+body { 
+    font-family: Arial; 
+    background-color: antiquewhite;
+}
+Header {
+    text-align: center;
+}
+Header h1 {
+    padding: 5px;
+    background-color: blue;
+
+}
+
+div nav{
+    background-color: rgb(0, 255, 136);
+    color: orange;
+    padding: 1px;
+    text-align: center;
+}
+nav ul a{
+    background-color: blue;
+    color: white;
+    margin-top: 30 px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#persegi:hover {
+    background-color: violet;
+    color: black;
+    padding: 10px;
+}
+#persegi:active {
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+#PersegiPanjang:hover {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+}
+#PersegiPanjang:active {
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+div h4 {
+    text-align: center;
+    margin-top: 5px;
+}
+div p{
+    text-align: center;
+    margin-top: -20px;
+    font-size: small;
+}
+
+.Inputsection {
+    display:flex;
+    flex-direction: column;
+    margin :10px;
+}
+#squareSide {
+    outline: none;
+    border-radius: 8px;
+    border: solid green;
+    padding: 10px;
+}
+#squareSide:focus {
+    border: solid darkorange;
+}
+
+#squareSide1 {
+    outline: none;
+    border-radius: 8px;
+    border: solid green;
+    padding: 10px;
+}
+#squareSide1:focus {
+    border: solid darkorange;
+}
+
+#squareSide2 {
+    outline: none;
+    border-radius: 8px;
+    border: solid green;
+    padding: 10px;
+}
+#squareSide2:focus {
+    border: solid darkorange;
+}
+
+Button{
+    padding: 10px 20px;
+    
+}
+.btn{
+text-align: center;
+display: flex;
+flex-direction: center;
+}
+#btn-hitung {
+    margin: auto;
+    background-color: white;
+    color:black;
+    Border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px 30px black;
+    cursor: pointer;
+    }
+#btn-hitung:hover{
+    background-color: blue;
+}
+#btn-hitung:active{
+    background-color: gold;
+}
+
+#btn-reset {
+    background-color: red;
+    color:black;
+    Border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px 30px black;
+    cursor: pointer;
+    }
+#btn-reset:hover{
+    background-color: orange;
+    color:red;
+}
+#btn-reset:active{
+    background-color: black;
+    color: white;
+}
+
+.outputluas {
+    background-color: greenyellow;
+}
+
+#prg-hasil{
+    text-align: center;
+    padding: 5px;
+}
+#Rumus{
+    text-align: center;
+    padding: 5px;
+}
+#nilai{
+    text-align: center;
+    padding: 5px;
+}
+#hasil{
+    text-align: center;
+    padding: 5px;
+}
+#prg-hasilK{
+    text-align: center;
+    padding: 5px;
+}
+
+.outputkel {
+    background-color: white;
+}
+#RumusK{
+    text-align: center;
+    padding: 5px;
+}
+#nilaiK{
+    text-align: center;
+    padding: 5px;
+}
+#hasilK{
+    text-align: center;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
