@@ -1,6 +1,6 @@
 body { 
     font-family: Arial; 
-    background-color: antiquewhite;
+    background-color: aquamarine;
 }
 Header {
     text-align: center;
@@ -46,6 +46,11 @@ nav ul a{
     color: black;
     padding: 10px;
 }
+div img{
+    
+    
+}
+
 div h4 {
     text-align: center;
     margin-top: 5px;
